@@ -1,6 +1,5 @@
 <!-- Header -->
 <?php require 'connect/header.php';?>
-
 <script>
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
@@ -14,7 +13,8 @@ $('#myModal').on('shown.bs.modal', function () {
     <!-- navbar -->
 <?php require 'connect/nav.php';?>
 <!-- Content -->
-<!--cont-->
+    
+
     <div class="container">
         <h3 class="float-right text-white">Career portal</h3>
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
